@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import CounterExample from './CounterExample';
+import FetchExampleComponent from './FetchExample';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <CounterExample />
+      <FetchExampleComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
